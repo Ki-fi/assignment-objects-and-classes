@@ -7,9 +7,12 @@ public class Main {
         ing.getUnit();
 
         ApplePieRecipe applePieRecipe = new ApplePieRecipe();
+
+        System.out.println("Ingrediënten:");
+
         applePieRecipe.printIngredients();
 
-
+        applePieRecipe.printBereidingswijze();
 
     }
     }
